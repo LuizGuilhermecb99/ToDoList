@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <header class="topo">
+        <div class="formulario">
+            <input id="tarefa" class="txtTarefa" type="text" placeholder="Escreva as suas próximas tarefas" autofocus>
+            <br>
+            <button onclick="incluirTarefa(tarefa.value)" class="btnIncluir">Icluir Tarefa</button>
+            <p class="limpar"> <a classe="limpar" href="javascript:limpaTudo()">Limpar Tudo</a></p>
+        </div>
+    </header>
+    <section class="listaTarefas">
+        <div class="lista">
+            <table id="tab" class="tab">
+
+
+
+            </table>
+        </div>
+    </section>
+<script src="tasks.js"></script>
+</body>
+</html>
