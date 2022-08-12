@@ -1,0 +1,134 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Ubuntu;
+
+}
+
+.topo{
+    background-color: #8fbc8c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+}
+
+.listaTarefas{
+    background-color: #D3D3D3;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.formulario{
+    display: block;
+    position: relative;
+    border: 1px solid white;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 200px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+    
+}
+
+.txtTarefa,txtTarefa:focus,textarea:focus{
+    padding: 20px;
+    width: 500px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #8fbc8c;
+    outline: none;
+}
+
+.txtTarefa::placeholder{
+    color:#D3D3D3;
+}
+
+.btnIncluir{
+    margin-top: 30px;
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid green;
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.btnIncluir:hover{
+    transform: scale(1.05);
+    background-color: #8fbc8c;
+    color: green;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.limpar{
+    color: rgb(25, 218, 144);
+    margin-top:  15px;
+    margin-bottom: -10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.2s;
+
+
+}
+
+.limpar.hover{
+    color:green;
+    transition: 0.2s;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 120px;
+    font-size: 40px;
+
+}
+
+td:nth-child(1){
+    color: #8fbc8c;
+    border-bottom: 2px solid #8fbc8c;
+
+}
+
+img{
+    justify-content: center;
+    font-size: 40px;
+    margin-left:  10px;
+
+
+}
+
+
+.btnExcluir{
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: transparent;
+    transition: 0.2s;
+    font-size: 20px;
+    
+}
+
+.btnExcluir:hover{
+    border: none;
+    transform: scale(1.05);
+    background-color: #f3877f;
+    transition: 0.2s;
+
+
+
+
+
+}
